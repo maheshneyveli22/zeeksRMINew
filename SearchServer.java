@@ -12,7 +12,7 @@ public class SearchServer
             System.setProperty("java.rmi.server.hostname", "192.168.29.41");
  
             // rmiregistry within the server JVM with
-            // port number 1900
+            // port number 1902
             LocateRegistry.createRegistry(1902);
  
             // Binds the remote object by the name
